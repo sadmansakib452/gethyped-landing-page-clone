@@ -1,0 +1,47 @@
+// ─── Work / case study cards shown in the portfolio section ──────────────────
+import { WorkItem } from "@/types";
+
+export const WORK_ITEMS: WorkItem[] = [
+  {
+    id: "bullit",
+    href: "#work",
+    cardBg: "bg-orange-600",
+    rotation: "-rotate-2",
+    imgSrc: "https://c.animaapp.com/mnys4enii5TR86/assets/69c3d06cc7a0b07e150a671d_Bullit_branded_placeholder_2.1.1.avif",
+    imgAlt: "Bullit case – Van nul naar vol, binnen 3 weken",
+    videoSrc: "https://gethyped.b-cdn.net/Bullit/Bullit | Loop.mp4",
+    innerBg: "bg-orange-600",
+    title: "Van nul naar vol, binnen 3 weken",
+    tagBg: "bg-orange-300",
+    tagLabel: "Bullit",
+    accentColor: "text-orange-600",
+  },
+  {
+    id: "roasta",
+    href: "#work",
+    cardBg: "bg-sky-500",
+    rotation: "rotate-1",
+    imgSrc: "https://c.animaapp.com/mnys4enii5TR86/assets/68716a54a3bf63bf25c2ae92_roasta-placeholder.avif",
+    imgAlt: "Roasta case – Zacht in smaak, sterk in beeld",
+    videoSrc: "https://gethyped.b-cdn.net/Roasta/roasta-loop.mp4",
+    innerBg: "bg-sky-500",
+    title: "Zacht in smaak, sterk in beeld",
+    tagBg: "bg-sky-400",
+    tagLabel: "Roasta",
+    accentColor: "text-sky-500",
+  },
+  {
+    id: "loco",
+    href: "#work",
+    cardBg: "bg-emerald-400",
+    rotation: "-rotate-1",
+    imgSrc: "https://c.animaapp.com/mnys4enii5TR86/assets/68716b4e8982337b1d3d1bd7_loco-loco-placeholder.avif",
+    imgAlt: "Loco case – Content die écht smaakt (en raakt)",
+    videoSrc: "https://gethyped.b-cdn.net/Loco/loco-bites-loop.mp4",
+    innerBg: "bg-emerald-400",
+    title: "Content die écht smaakt (en raakt)",
+    tagBg: "bg-emerald-300",
+    tagLabel: "Loco",
+    accentColor: "text-emerald-400",
+  },
+];

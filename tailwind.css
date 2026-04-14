@@ -1,0 +1,89 @@
+/* ─── Google Font: Inter (must come before @tailwind directives) ─── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;1,14..32,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base resets ─────────────────────────────────────── */
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-orange-50 text-neutral-900 antialiased;
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Remove default list styling used in section role="list" */
+  [role="list"] {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* ─── Utility: prevent text selection on decorative elements ─ */
+@layer utilities {
+  .no-select {
+    user-select: none;
+  }
+
+  /* Pause marquee on hover */
+  .marquee-track:hover {
+    animation-play-state: paused;
+  }
+
+  /* ── Scroll-reveal animation utilities ─────────────────────── */
+
+  /* Initial hidden state — element starts below + invisible */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* When JS adds this class → element fades up into place */
+  .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Stagger variants — delay child elements */
+  .reveal-delay-1 { transition-delay: 0.1s; }
+  .reveal-delay-2 { transition-delay: 0.2s; }
+  .reveal-delay-3 { transition-delay: 0.3s; }
+  .reveal-delay-4 { transition-delay: 0.4s; }
+  .reveal-delay-5 { transition-delay: 0.5s; }
+
+  /* Slide-in from left variant */
+  .reveal-left {
+    opacity: 0;
+    transform: translateX(-24px);
+    transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal-left.in-view {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* Scale-in variant (cards) */
+  .reveal-scale {
+    opacity: 0;
+    transform: scale(0.96) translateY(16px);
+    transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal-scale.in-view {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
