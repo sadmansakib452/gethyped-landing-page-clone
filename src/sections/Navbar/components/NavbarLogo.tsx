@@ -11,9 +11,9 @@ export const NavbarLogo: React.FC = () => {
       aria-label="Get Hyped – ga naar home"
       className="flex items-center gap-1.5 z-50 shrink-0"
     >
-      {/* Logo SVG from original asset CDN */}
+      {/* Local logo asset */}
       <img
-        src="https://c.animaapp.com/mnys4enii5TR86/assets/icon-7.svg"
+        src="/assets/icons/logo-mark.svg"
         alt="Get Hyped logo"
         className="h-10 w-auto"
       />

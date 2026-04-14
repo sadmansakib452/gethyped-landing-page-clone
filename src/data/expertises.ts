@@ -14,7 +14,7 @@ export const EXPERTISES: ExpertiseItem[] = [
     counterColor: "text-stone-200",
     mediaBgColor: "bg-orange-600",
     linkBgColor: "bg-orange-600",
-    videoSrc: "https://gethyped.b-cdn.net/MD/MD Loop Schaken.mp4",
+    videoSrc: "/assets/videos/expertise-social-strategy.mp4",
     counter: "01",
   },
   {
@@ -29,7 +29,7 @@ export const EXPERTISES: ExpertiseItem[] = [
     counterColor: "text-fuchsia-200",
     mediaBgColor: "bg-white",
     linkBgColor: "bg-white",
-    videoSrc: "https://gethyped.b-cdn.net/Expertises/Loop BTS comp.mp4",
+    videoSrc: "/assets/videos/expertise-content-creation.mp4",
     counter: "02",
   },
   {
@@ -44,7 +44,7 @@ export const EXPERTISES: ExpertiseItem[] = [
     counterColor: "text-emerald-300",
     mediaBgColor: "bg-white",
     linkBgColor: "bg-white",
-    videoSrc: "https://gethyped.b-cdn.net/Over de Top/overdetop-loop.mp4",
+    videoSrc: "/assets/videos/expertise-activation.mp4",
     counter: "03",
   },
   {
@@ -59,7 +59,7 @@ export const EXPERTISES: ExpertiseItem[] = [
     counterColor: "text-sky-300",
     mediaBgColor: "bg-white",
     linkBgColor: "bg-white",
-    videoSrc: "https://gethyped.b-cdn.net/Expertises/Data comp.mp4",
+    videoSrc: "/assets/videos/expertise-data.mp4",
     counter: "04",
   },
 ];

@@ -73,7 +73,7 @@ export const ContactModal: React.FC = () => {
         <div className="flex flex-col gap-6 flex-1 pt-20 pb-10 px-6 md:px-10">
           {/* Logo mark */}
           <img
-            src="https://c.animaapp.com/mnys4enii5TR86/assets/icon-7.svg"
+            src="/assets/icons/logo-mark.svg"
             alt="Get Hyped"
             className="h-10 w-auto self-start"
           />

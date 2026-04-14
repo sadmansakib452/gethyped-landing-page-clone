@@ -19,8 +19,8 @@ const HERO_CARDS: HeroCard[] = [
     rotation: "-rotate-[5deg]",
   },
   {
-    videoSrc: "https://gethyped.b-cdn.net/Salontopper/Loop Salontopper.mp4",
-    imgSrc: "https://c.animaapp.com/mnys4enii5TR86/assets/69c40296636e683096701cda_video-thumb-01.avif",
+    videoSrc: "/assets/videos/hero-salontopper-loop.mp4",
+    imgSrc: "/assets/images/hero-video-thumb-01.avif",
     bgColor: "bg-neutral-900",
     rotation: "-rotate-[2deg]",
   },
@@ -32,8 +32,8 @@ const HERO_CARDS: HeroCard[] = [
     rotation: "rotate-[2deg]",
   },
   {
-    videoSrc: "https://gethyped.b-cdn.net/Petrol Head/petrolhead-loop.mp4",
-    imgSrc: "https://c.animaapp.com/mnys4enii5TR86/assets/69c402fa5b2a05b98200d317_video-thumb-02.avif",
+    videoSrc: "/assets/videos/hero-petrolhead-loop.mp4",
+    imgSrc: "/assets/images/hero-video-thumb-02.avif",
     bgColor: "bg-fuchsia-300",
     rotation: "rotate-[5deg]",
   },

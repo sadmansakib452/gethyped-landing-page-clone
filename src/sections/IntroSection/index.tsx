@@ -35,7 +35,7 @@ export const IntroSection: React.FC = () => {
           >
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-orange-100 rotate-3">
               <img
-                src="https://c.animaapp.com/mnys4enii5TR86/assets/6894757aa6dd3f84f6e463a2_Anniek_Bril.webp"
+                src="/assets/images/intro-team.webp"
                 alt="Team Get Hyped"
                 className="absolute inset-0 w-full h-full object-cover"
               />

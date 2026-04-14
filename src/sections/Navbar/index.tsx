@@ -54,7 +54,10 @@ export const Navbar: React.FC = () => {
           {/* CTA button inside mobile menu */}
           <button
             type="button"
-            onClick={() => { closeMobileMenu(); openContact(); }}
+            onClick={() => {
+              closeMobileMenu();
+              openContact();
+            }}
             className="inline-flex items-center gap-2 mt-4 pl-4 pr-1 py-1 rounded-xl font-semibold bg-neutral-900 text-white"
           >
             Get Results

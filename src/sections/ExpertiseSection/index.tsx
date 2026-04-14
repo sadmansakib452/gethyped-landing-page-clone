@@ -8,7 +8,10 @@ import { useInView } from "@/hooks/useInViews";
  * Uses CSS sticky positioning so each card "pins" as you scroll.
  */
 /** Wrapper that applies a reveal animation to each expertise card. */
-const RevealCard: React.FC<{ item: (typeof EXPERTISES)[number]; index: number }> = ({ item, index }) => {
+const RevealCard: React.FC<{
+  item: (typeof EXPERTISES)[number];
+  index: number;
+}> = ({ item, index }) => {
   const [ref, inView] = useInView<HTMLDivElement>(0.08);
   return (
     <div

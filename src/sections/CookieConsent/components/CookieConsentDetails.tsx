@@ -14,12 +14,15 @@ export const BrandsSection: React.FC = () => {
     <section className="py-12 md:py-20 overflow-hidden">
       <div className="max-w-screen-xl mx-auto px-4 md:px-6">
         {/* Section heading */}
-        <div ref={headingRef} className={`mb-10 reveal${headingInView ? " in-view" : ""}`}>
+        <div
+          ref={headingRef}
+          className={`mb-10 reveal${headingInView ? " in-view" : ""}`}
+        >
           <h2 className="text-4xl md:text-6xl font-semibold tracking-tight leading-none">
             These brands got hyped.
           </h2>
-                            </div>
-                          </div>
+        </div>
+      </div>
 
       {/* ── Infinite marquee track (full-bleed, outside padded container) ── */}
       <div className="overflow-hidden">
@@ -28,10 +31,12 @@ export const BrandsSection: React.FC = () => {
           aria-label="Partner brands"
           style={{ willChange: "transform" }}
           onMouseEnter={(e) => {
-            (e.currentTarget as HTMLDivElement).style.animationPlayState = "paused";
+            (e.currentTarget as HTMLDivElement).style.animationPlayState =
+              "paused";
           }}
           onMouseLeave={(e) => {
-            (e.currentTarget as HTMLDivElement).style.animationPlayState = "running";
+            (e.currentTarget as HTMLDivElement).style.animationPlayState =
+              "running";
           }}
         >
           {/* Render logos 3 times for a seamless loop on any screen width */}
@@ -44,7 +49,7 @@ export const BrandsSection: React.FC = () => {
       {/* Divider */}
       <div className="max-w-screen-xl mx-auto px-4 md:px-6">
         <div className="mt-12 h-px bg-neutral-900/20" />
-    </div>
+      </div>
     </section>
   );
 };

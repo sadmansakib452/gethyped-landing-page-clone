@@ -4,22 +4,22 @@ const SOCIAL_LINKS = [
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/company/gethypednl/",
-    icon: "https://c.animaapp.com/mnys4enii5TR86/assets/icon-22.svg",
+    icon: "/assets/icons/social-linkedin.svg",
   },
   {
     label: "TikTok",
     href: "https://www.tiktok.com/@gethyped.nl",
-    icon: "https://c.animaapp.com/mnys4enii5TR86/assets/icon-23.svg",
+    icon: "/assets/icons/social-tiktok.svg",
   },
   {
     label: "Instagram",
     href: "https://www.instagram.com/gethyped.nl/",
-    icon: "https://c.animaapp.com/mnys4enii5TR86/assets/icon-24.svg",
+    icon: "/assets/icons/social-instagram.svg",
   },
   {
     label: "YouTube",
     href: "https://www.youtube.com/@gethypednl",
-    icon: "https://c.animaapp.com/mnys4enii5TR86/assets/icon-25.svg",
+    icon: "/assets/icons/social-youtube.svg",
   },
 ];
 
